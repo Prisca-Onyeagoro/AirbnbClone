@@ -1,10 +1,20 @@
+import { Box, CssBaseline } from '@mui/material';
 import Appbar from './component/APPbar/Appbar';
-import Home from './component/Home/Home';
+import React from 'react';
+
 const App = () => {
   return (
     <>
-      <Appbar />
-      <Home />
+      <CssBaseline />
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          height: '100vh',
+        }}
+      >
+        <Appbar />
+      </Box>
     </>
   );
 };
