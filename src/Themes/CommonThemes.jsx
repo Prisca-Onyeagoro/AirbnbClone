@@ -29,7 +29,11 @@ export const fullWidthFlex = {
   width: '100%',
 };
 
-export const justifyCenter = { display: 'flex', justifyContent: 'center' };
+export const justifyCenter = {
+  display: 'flex',
+  justifyContent: 'center',
+  flexDirection: 'row',
+};
 
 export const dFlex = {
   display: 'flex',

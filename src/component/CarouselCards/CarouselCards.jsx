@@ -49,7 +49,7 @@ const CarouselCards = ({ location }) => {
               <div key={step.id}>
                 <Box
                   component="img"
-                  sx={{ carouselImage }}
+                  sx={carouselImage}
                   src={step.url}
                   alt={step.id}
                 ></Box>

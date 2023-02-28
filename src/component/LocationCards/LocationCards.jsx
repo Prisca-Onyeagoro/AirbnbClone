@@ -8,7 +8,7 @@ const LocationCards = () => {
   const [cards] = React.useState(cardLocations);
   if (!cards.length) return null;
   return (
-    <Box sx={{ mx: 2 }}>
+    <Box sx={{ mx: 3 }}>
       <Grid container rowSpacing={3} columnSpacing={3}>
         {cards.map((location) => {
           return (
